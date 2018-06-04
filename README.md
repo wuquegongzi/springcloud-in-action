@@ -1,36 +1,20 @@
-## Welcome to GitHub Pages
+## 欢迎来到Leon的springcloud世界
 
-You can use the [editor on GitHub](https://github.com/swleon/leon-springcloud-1.5.8/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+   leon-springcloud-1.5.8 脱胎在公司核心系统的架构基础上，采用springclou微服务架构，基于springboot-1.5.8。因公司业务和成本限制，某些具体服务采用折中方案，后续会慢慢提取出来，并做好优化以及统一相关API。敬请关注~
+   
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 基础环境要求
 
-### Markdown
+ - IDE : IntelliJ IDEA 2017 +
+ - JDK : jdk1.8 +
+ - Maven : apache-maven-3.2.2 +
+ - Springboot : 1.5.8 or 1.5.9 
+ - Redis : redis 3.0 +
+ - Nginx : nginx-1.10.2 +
+ - MySql : mysql 5.7 +
+ - Encoding : UTF-8
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/swleon/leon-springcloud-1.5.8/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
