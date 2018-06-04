@@ -18,49 +18,54 @@
 
 ### 相关服务模块
  
-    由于maven聚合springboot项目有太多坑，所以每一个子服务都采用独立项目，省心省力省时间，也方便项目中的开发权限管理。
+   由于maven聚合springboot项目有太多坑，所以每一个子服务都采用独立项目，省心省力省时间，也方便项目中的开发权限管理。
     
-    1. leon-lib  公共依赖包，需要打包发布到nexus仓库，或者本地仓库进行调用即可。
-    2. leon-srv-eureka  注册中心
+   1. leon-lib  公共依赖包，需要打包发布到nexus仓库，或者本地仓库进行调用即可。
+   2. leon-srv-eureka  注册中心
      2.1 leon-srv-eureka-01  注册中心集群负载 节点1
      2.2 leon-srv-eureka-02  注册中心集群负载 节点2
-    3. leon-srv-config  配置中心
-    4. leon-srv-auth  鉴权中心
-    5. leon-srv-xxl-job 分布式调度中心
-    6. leon-srv-sba  监控中心
-    7. leon-srv-zipkin 全链路追踪
-    8. leon-srv-cache  缓存管理
-    9. leon-srv-redis  redis服务
-    10. leon-srv-websocket  websocket服务
-    11.  leon-srv-zuul 路由服务
-    12.  leon-srv-springboot-demo（单数据源）   springboot集成druid、mybatis的小栗子
-    13.  leon-srv-springboot-merge-demo (多数据源)  springboot集成druid、mybatis，动态切换数据源的小栗子
-    .
-    .
-    .
+   3. leon-srv-config  配置中心
+   4. leon-srv-auth  鉴权中心
+   5. leon-srv-xxl-job 分布式调度中心
+   6. leon-srv-sba  监控中心
+   7. leon-srv-zipkin 全链路追踪
+   8. leon-srv-cache  缓存管理
+   9. leon-srv-redis  redis服务
+   10. leon-srv-websocket  websocket服务
+   11.  leon-srv-zuul 路由服务
+   12.  leon-srv-springboot-demo（单数据源）   springboot集成druid、mybatis的小栗子
+   13.  leon-srv-springboot-merge-demo (多数据源)  springboot集成druid、mybatis，动态切换数据源的小栗子
+   .
+   .
+   .
 
 ### 参考资料
 
-    - [史上最简单的 SpringCloud 教程 | 终章](https://blog.csdn.net/forezp/article/details/70148833).
-    - [Spring Cloud 中文网](https://springcloud.cc/).
-    - [Spring 官网](https://spring.io/).
-    - [许雪里 开源社区](http://www.xuxueli.com/).
-    - [Echarts](http://echarts.baidu.com/).
+   - [史上最简单的 SpringCloud 教程 | 终章](https://blog.csdn.net/forezp/article/details/70148833).
+   - [Spring Cloud 中文网](https://springcloud.cc/).
+   - [Spring 官网](https://spring.io/).
+   - [许雪里 开源社区](http://www.xuxueli.com/).
+   - [Echarts](http://echarts.baidu.com/).
 
 ### 书籍
     
-    - Nginx 高性能Web服务详解
-    - Spring 实战
-    - Spring Boot实战 ,丁雪丰 (译者) 
-    - spring cloud 微服务实战
-    - thymeleaf_3.0.5_中文参考手册
-    - 阿里巴巴Java开发手册
-    - 微服务设计(中文完整版)
-    - 深入理解JVM虚拟机
+   - Nginx 高性能Web服务详解
+   - Spring 实战
+   - Spring Boot实战 ,丁雪丰 (译者) 
+   - spring cloud 微服务实战
+   - thymeleaf_3.0.5_中文参考手册
+   - 阿里巴巴Java开发手册
+   - 微服务设计(中文完整版)
+   - 深入理解JVM虚拟机
     
 ### 联系方式
  
-    - Email : swchenminglei@163.com
+   - Email : [swchenminglei@163.com](swchenminglei@163.com).
+   
+### 致谢
+
+   TKS~
+   
     
     
      
