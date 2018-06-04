@@ -1,7 +1,11 @@
 ## 欢迎来到Leon的springcloud世界
 
-   leon-springcloud-1.5.8 脱胎在公司核心系统的架构基础上，采用springclou微服务架构，基于springboot-1.5.8。因公司业务和成本限制，某些具体服务采用折中方案，后续会慢慢提取出来，并做好优化以及统一相关API。敬请关注~
+   leon-springcloud-1.5.8 脱胎在公司核心系统的架构基础上，采用springclou微服务架构，基于springboot-1.5.8。因公司业务和成本限制，某些具体服务采用折中方案，后续会慢慢提取出来，并做好优化以及统一相关API。
    
+   后续会逐步升级到springboot2.0,并进行docker容器化。
+   并会进行zookeeper等不同方案的集成。
+   
+   敬请关注~
 
 ### 基础环境要求
 
@@ -22,8 +26,8 @@
     
    1. leon-lib  公共依赖包，需要打包发布到nexus仓库，或者本地仓库进行调用即可。
    2. leon-srv-eureka  注册中心
-     2.1 leon-srv-eureka-01  注册中心集群负载 节点1
-     2.2 leon-srv-eureka-02  注册中心集群负载 节点2
+      2.1 leon-srv-eureka-01  注册中心集群负载 节点1
+      2.2 leon-srv-eureka-02  注册中心集群负载 节点2
    3. leon-srv-config  配置中心
    4. leon-srv-auth  鉴权中心
    5. leon-srv-xxl-job 分布式调度中心
