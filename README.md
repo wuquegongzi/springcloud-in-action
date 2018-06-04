@@ -38,15 +38,14 @@
     .
     .
     .
-    
-    
+
 ### 参考资料
 
-    - [史上最简单的 SpringCloud 教程 | 终章] (https://blog.csdn.net/forezp/article/details/70148833)
-    - [Spring Cloud 中文网] (https://springcloud.cc/)
-    - [Spring 官网] (https://spring.io/)
-    - [许雪里 开源社区] (http://www.xuxueli.com/)
-    - [Echarts] (http://echarts.baidu.com/)
+    - [史上最简单的 SpringCloud 教程 | 终章](https://blog.csdn.net/forezp/article/details/70148833).
+    - [Spring Cloud 中文网](https://springcloud.cc/).
+    - [Spring 官网](https://spring.io/).
+    - [许雪里 开源社区](http://www.xuxueli.com/).
+    - [Echarts](http://echarts.baidu.com/).
 
 ### 书籍
     
