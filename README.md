@@ -15,8 +15,8 @@
  - MySql : mysql 5.7 +
  - RabbitMQ ： RabbitMQ 3.5.6
  
- 
- ### 相关服务模块
+
+### 相关服务模块
  
     由于maven聚合springboot项目有太多坑，所以每一个子服务都采用独立项目，省心省力省时间，也方便项目中的开发权限管理。
     
@@ -42,11 +42,11 @@
     
 ### 参考资料
 
-    - [史上最简单的 SpringCloud 教程 | 终章](https://blog.csdn.net/forezp/article/details/70148833)
-    - [Spring Cloud 中文网](https://springcloud.cc/)
-    - [Spring 官网](https://spring.io/)
-    - [许雪里 开源社区](http://www.xuxueli.com/)
-    - [Echarts](http://echarts.baidu.com/)
+    - [史上最简单的 SpringCloud 教程 | 终章] (https://blog.csdn.net/forezp/article/details/70148833)
+    - [Spring Cloud 中文网] (https://springcloud.cc/)
+    - [Spring 官网] (https://spring.io/)
+    - [许雪里 开源社区] (http://www.xuxueli.com/)
+    - [Echarts] (http://echarts.baidu.com/)
 
 ### 书籍
     
@@ -59,7 +59,7 @@
     - 微服务设计(中文完整版)
     - 深入理解JVM虚拟机
     
- ### 联系方式
+### 联系方式
  
     - Email : swchenminglei@163.com
     
