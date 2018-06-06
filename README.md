@@ -27,8 +27,7 @@
    1. leon-lib  公共依赖包，需要打包发布到nexus仓库，或者本地仓库进行调用即可。
    2. leon-srv-eureka  注册中心
    ```
-   - leon-srv-eureka-01  注册中心集群负载 节点1
-   - leon-srv-eureka-02  注册中心集群负载 节点2
+   - leon-srv-eureka-load  注册中心集群版
    ```
    3. leon-srv-config  配置中心
    4. leon-srv-auth  鉴权中心
