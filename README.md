@@ -30,6 +30,10 @@
    - leon-srv-eureka-load  注册中心集群版
    ```
    3. leon-srv-config  配置中心
+   ```
+   - leon-srv-config-svn  配置中心 SVN版
+   - leon-srv-config-git  配置中心 git版
+   ```
    4. leon-srv-auth  鉴权中心
    5. leon-srv-xxl-job 分布式调度中心
    6. leon-srv-sba  监控中心
