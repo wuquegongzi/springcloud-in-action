@@ -42,7 +42,7 @@ public class RedisRemoteService {
 
         RedisBean redisBean = new RedisBean(key,value,expireTime);
 
-        String restURI ="http://GM-SRV-REDIS-"+clientId+"/redis/set";
+        String restURI ="http://LEON-SRV-REDIS-"+clientId+"/redis/set";
 
         boolean result = restTemplate.postForObject(restURI,
                 redisBean, Boolean.class);
@@ -72,7 +72,7 @@ public class RedisRemoteService {
 
         redisBean.setKey(key);
 
-        String restURI ="http://GM-SRV-REDIS-"+clientId+"/redis/get";
+        String restURI ="http://LEON-SRV-REDIS-"+clientId+"/redis/get";
 
         Object result = restTemplate.postForObject(restURI,
                 redisBean, Object.class);
@@ -95,7 +95,7 @@ public class RedisRemoteService {
     public ResultMsg remove(String clientId, String key) {
         RedisBean redisBean = new RedisBean();
         redisBean.setKey(key);
-        String restURI ="http://GM-SRV-REDIS-"+clientId+"/redis/remove";
+        String restURI ="http://LEON-SRV-REDIS-"+clientId+"/redis/remove";
 
         Object result = restTemplate.postForObject(restURI,
                 redisBean, Object.class);

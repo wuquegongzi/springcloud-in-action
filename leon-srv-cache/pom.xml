@@ -103,7 +103,6 @@
 			<groupId>com.iwufang</groupId>
 			<artifactId>leon-lib</artifactId>
 			<version>1.0</version>
-			<classifier>dependencies</classifier>
 		</dependency>
 
 		<dependency>
